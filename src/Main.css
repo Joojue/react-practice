@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Hi+Melody&family=Jua&display=swap');
+
+body {
+    background-color: dimgray;
+}
+.container {
+    margin: auto;
+    max-width: 1000px;
+  }
+
+.mainBlock {
+    position : relative;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 13px 17px -9px rgb(0 0 0 / 16%);
+  }
+
+a {
+	display : inline-block;
+	padding : 10px;
+	text-decoration-line : none;
+}
+a:hover {
+	color : orange;
+}
+a:link {
+	color : black;
+}
+a:visited {
+	color : black;
+	text-decoration-line : none;
+}
+a:visited:hover {
+	color : orange;
+	background-color : black;
+}
+
+.title {
+  color : black;
+	font-size : 35px;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.logo {
+  margin: auto;
+  width: 300px;
+}
+
+.menu {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.sns {
+  width: 45px;
+  height: 45px;
+  padding: 12px;
+}
+.sns:hover {
+	transform : scale(1.5,1.5);
+}
+
+.bookingMark {
+  width: 180px;
+  height: 135px;
+}
+.bookingMark:hover {
+	transform : scale(1.2,1.2);
+}
+
+.main_table {
+  position : relative;
+  margin: auto;
+  width: auto;
+  height: auto;
+  padding: auto;
+}
+
+.movie_title {
+	color : white;
+	font-size : 55px;
+	font-family: 'Jua', sans-serif;
+
+}
+.movie_title:hover {
+	color : orange;
+}
+
+.movie_p {
+	color : white;
+	font-size : 18px;
+	font-family: 'Jua', sans-serif;
+}
+.movie_p:hover {
+	color : orange;
+}
+
+.thor4 {
+  background-image : url("media/thor4.jpg");
+	width : 800px;
+	height : 400px;
+}
+
+.doctorstrange2 {
+	background-image : url("media/doctor_strange2.jpg");
+	width : 800px;
+	height : 400px;
+}
+.spiderman3 {
+	background-image : url("media/spiderman3.jpg");
+	width : 800px;
+	height : 400px;
+}
+.ironman3 {
+	background-image : url("media/ironman3.jpg");
+	width : 800px;
+	height : 400px;
+}
+
+.sub_table {
+  table-layout: fixed;
+  margin: auto;
+	width : 800px;
+	height : 500px
+}
+
+.info {
+  width: 50%;
+	color : white;
+	background-color : black;
+	font-size : 18px;
+	font-family: 'Do Hyeon', sans-serif;;
+	text-align : left;
+	padding : 25px;
+}
+
+.info_title {
+	color : white;
+	background-color : black;
+	font-size : 30px;
+	font-family: 'Do Hyeon', sans-serif;
+	text-align : left;
+}
+
+.button {
+	color : white;
+	background : black;
+	border-color : white;
+	font-size : 18px;
+	font-family: 'Jua', sans-serif;
+}
+
+.merit {
+	align-content: center;
+	width : 140px;
+	height : 140px;
+}
+.menu_title {
+	color : black;
+	font-size : 35px;
+	font-family: 'Jua', sans-serif;
+}
+.merit_font {
+	font-size : 25px;
+	color : black;
+}
+hr {
+	background-color : black;
+	margin-left : 8%;
+	margin-right : 8%;
+	height : 3px;
+}
+.intro_table {
+	text-align: center;
+	margin: auto;
+	width: 900px;
+}
